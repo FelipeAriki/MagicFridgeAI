@@ -45,7 +45,7 @@ public class ChatGptService {
                             return content.get(0).get("text").toString();
                         }
                     }
-                    return "No recipe found.";
+                    return "No recipe found!";
                 });
     }
 }
